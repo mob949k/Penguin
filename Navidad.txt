@@ -1,0 +1,10 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = "Made by Silertime";
+Text = "By using this script we are not responsible for its misuse...";
+Duration = math.huge;
+Button1 = "I accept the terms"
+})
+
+while wait() do
+    game:service'ReplicatedStorage'.StageChange:FireServer("Click");
+    end
