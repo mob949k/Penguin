@@ -1,0 +1,37 @@
+----[Script Creator And Designer "MRMob#5128"]----
+
+if game.PlaceId == 6346148611 then
+
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Magic Penguin War", "GrapeTheme")
+
+
+----[GamePass]----
+    local Main = Window:NewTab("Events")
+    local MainSection = Main:NewSection("GamePass")
+
+    MainSection:NewButton("Gravity Coil", "25 Robux", function()
+    game:service'ReplicatedStorage'.GravityCoilEvent:FireServer("GET");
+    end)
+
+    MainSection:NewButton("Speed Coil", "25 Robux", function()
+    game:service'ReplicatedStorage'.AccelerationCoilEvent:FireServer("GET");
+    end)
+
+    MainSection:NewButton("Magic Carpet", "50 Robux", function()
+    game:service'ReplicatedStorage'.RainbowMagicCarpetEvent:FireServer("GET");
+    end)
+
+
+----[Local Player]----
+    local Player = Window:NewTab("Local Player")
+    local PlayerSection = Player:NewSection("Player")
+
+    PlayerSection:NewSlider("WalkSpeed", "Speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    PlayerSection:NewButton("Reset WalkSpeed", "Predetermined", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+end
