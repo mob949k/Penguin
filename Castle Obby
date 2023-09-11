@@ -1,4 +1,4 @@
-----[Script Creator And Designer "MRMob#5128"]----
+--[Script Creator And Designer "MR Mob#7357"]--
 
 if game.PlaceId == 6346148611 then
 
@@ -6,7 +6,7 @@ if game.PlaceId == 6346148611 then
     local Window = Library.CreateLib("Magic Penguin War", "GrapeTheme")
 
 
-----[GamePass]----
+--[GamePass]--
     local Main = Window:NewTab("Events")
     local MainSection = Main:NewSection("GamePass")
 
@@ -23,7 +23,7 @@ if game.PlaceId == 6346148611 then
     end)
 
 
-----[Local Player]----
+--[Local Player]--
     local Player = Window:NewTab("Local Player")
     local PlayerSection = Player:NewSection("Player")
 
