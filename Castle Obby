@@ -1,37 +1,32 @@
---[Script Creator and designer MR Mob#7357]--
-
 if game.PlaceId == 6346148611 then
-
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("Magic Penguin War", "GrapeTheme")
-
-
 --[GamePass]--
-    local Main = Window:NewTab("Events")
-    local MainSection = Main:NewSection("GamePass")
-
+    local Main = Window:NewTab("Gamepass")
+    local MainSection = Main:NewSection("Events")
     MainSection:NewButton("Gravity Coil", "25 Robux", function()
-    game:service'ReplicatedStorage'.GravityCoilEvent:FireServer("GET");
+    game:service'ReplicatedStorage'.GravityCoilEvent:FireServer();
     end)
-
     MainSection:NewButton("Speed Coil", "25 Robux", function()
-    game:service'ReplicatedStorage'.AccelerationCoilEvent:FireServer("GET");
+    game:service'ReplicatedStorage'.AccelerationCoilEvent:FireServer();
     end)
-
     MainSection:NewButton("Magic Carpet", "50 Robux", function()
-    game:service'ReplicatedStorage'.RainbowMagicCarpetEvent:FireServer("GET");
+    game:service'ReplicatedStorage'.RainbowMagicCarpetEvent:FireServer();
     end)
-
-
 --[Local Player]--
     local Player = Window:NewTab("Local Player")
-    local PlayerSection = Player:NewSection("Player")
-
-    PlayerSection:NewSlider("WalkSpeed", "Speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    local PlayerSection = Player:NewSection("Powers")
+    PlayerSection:NewSlider("WalkSpeed", "Speed", 500, 16, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
     end)
-
-    PlayerSection:NewButton("Reset WalkSpeed", "Predetermined", function()
+    PlayerSection:NewSlider("JumpPower", "Height", 500, 16, function(s)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+    PlayerSection:NewButton("Activate", "...", function()
+    game.Players.LocalPlayer.Character.Humanoid.UseJumpPower = true
+    end)
+    PlayerSection:NewButton("Reset", "Predetermined", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
     end)
 end
