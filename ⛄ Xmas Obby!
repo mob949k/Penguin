@@ -1,0 +1,8 @@
+getgenv().farmer = true; --["true" to activate and "false" to deactivate]--
+
+while wait() do
+    if getgenv().farmer == true then
+        game:GetService('ReplicatedStorage').StageChange:FireServer()
+        game:GetService('ReplicatedStorage').PrestigeGUI:FireServer()
+    end
+end
