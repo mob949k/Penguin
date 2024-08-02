@@ -1,19 +1,19 @@
-# ⭐ Terms and Conditions - Penguin Star
+# ⭐ Terms and Conditions - **Penguin Star** 🐧✨
 **Last update:** August 2th, 2024
 
 ## 1. Acceptance of Terms and Conditions ✅
-By accessing and using our Roblox scripts website "Penguin Star", you agree to strictly comply with the following terms and conditions. If you do not agree with any of these terms, you are not allowed to use our site. Your access and use of the site constitute your unequivocal acceptance of these terms and conditions.
+By accessing and using our Roblox scripts website "**Penguin Star**", you agree to strictly comply with the following terms and conditions. If you do not agree with any of these terms, you are not allowed to use our site. Your access and use of the site constitute your unequivocal acceptance of these terms and conditions.
 
 ## 2. Authorized Use and Educational Purposes 📘🎮
-1. Penguin Star provides Roblox scripts exclusively for educational and learning purposes in programming and game development.
+1. **Penguin Star** provides Roblox scripts exclusively for educational and learning purposes in programming and game development.
 2. The use of scripts for the purpose of violating Roblox terms of service or engaging in illegal activities is strictly prohibited.
 
 ## 3. User Responsibility and Legal Knowledge 🧐⚖️
 1. It is your sole responsibility to understand and strictly comply with all local and Roblox laws before using any script available on our site.
-2. We do not assume any responsibility for any violation of laws or policies that you may commit while using the scripts available on Penguin Star.
+2. We do not assume any responsibility for any violation of laws or policies that you may commit while using the scripts available on **Penguin Star**.
 
 ## 4. Intellectual Property and Credits 💡📜
-1. All scripts offered on this website are the exclusive property of MR Mob and Penguin Star. Users are required to give proper credit to MR Mob and Penguin Star in all instances of script usage.
+1. All scripts offered on this website are the exclusive property of **MR Mob** and **Penguin Star**. Users are required to give proper credit to **MR Mob** and **Penguin Star** in all instances of script usage.
 
 ## 5. Changes in the Terms 🔄📅
 1. We reserve the absolute right to modify, alter, or update these terms and conditions at any time and without prior notice. Continued use of the site after such modifications will constitute your acceptance of the updated terms.
