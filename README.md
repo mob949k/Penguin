@@ -1,4 +1,4 @@
-# ⭐ Terms and Conditions - **Penguin Star** 🐧✨
+# ⭐ Terms and Conditions - **Penguin Star**
 **Last update:** August 2th, 2024
 
 ## 1. Acceptance of Terms and Conditions ✅
