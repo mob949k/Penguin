@@ -9,7 +9,7 @@ This project is an interactive web experience where a submarine descends through
 - The project is **responsive**, which means it works on both desktop and mobile devices.
 - **Fish and seaweed animations** can be replaced or customized according to your needs.
 - The project is versatile and can be used for **schools, universities, work presentations**, or even by teachers for classroom activities.
-- It is crucial to **keep credits** to "MR Mob" or "mob949k" and the email **mob949k@proton.me**. This information should remain in the footer of the page.
+- It is crucial to **keep credits** to "MR Mob" or "mob949k" and the email **mob949k@gmail.com**. This information should remain in the footer of the page.
 
 ## Features
 
