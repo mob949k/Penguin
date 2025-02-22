@@ -21,14 +21,7 @@ This project is an interactive web experience where a submarine descends through
 
 ## How to Use the Project
 
-### Installation and Running Locally
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/mob949k/Submarine-Interactive.git
-    ```
-
-2. Open the `index.html` file in your browser to view the project.
+1. Open the `index.html` file in your browser to view the project.
 
 ### Customizing Slides and Quiz
 
