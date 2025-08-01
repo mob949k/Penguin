@@ -79,6 +79,6 @@ By accessing and using our Roblox scripts website "**Penguin Star**", you agree 
 ## 25. Contact 📧📞
 1. For any questions, inquiries, or notifications related to these terms and conditions, you can contact us at [mob949k@proton.me](mailto:mob949k@proton.me).
 
-## 👤 Creator's LinkedIn Profile a
+## 👤 Creator's LinkedIn Profile
 
 [![LinkedIn](https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg) Melquisedec Medina](https://pa.linkedin.com/in/melquisedec-medina-22a501280?trk=profile-badge)
